@@ -11,6 +11,9 @@ jobs:
     environment: test
 
     steps:
+    - name: imprime variable
+      uses: echo "variable: ${{ secrets.DOCKER_USERNAME }}"
+      
     - name: Checkout repository
       uses: actions/checkout@v2
 
