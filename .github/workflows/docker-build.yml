@@ -3,7 +3,7 @@ name: Build and Publish Docker Image
 on:
   push:
     tags:
-      - 'v*'  # Esto se ejecuta para cualquier tag que empiece con "v"
+      - 'v*'  # Esto se ejecutara para cualquier tag que empiece con "v"
 
 jobs:
   build:
